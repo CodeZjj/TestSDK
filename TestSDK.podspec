@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/CodeZjj/TestSDK.git", :tag => s.version }
   s.source_files = "TestSDK/**/*.{h}"
-  s.vendored_libraries = 'TestSDK/TestSDK/*.a'
+  s.vendored_libraries = 'TestSDK/**/libTestSDK.a'
   s.requires_arc = true
 end
